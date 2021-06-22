@@ -1,6 +1,6 @@
 body{
     background-color: rgb(red, green, blue);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 h1{
@@ -17,6 +17,44 @@ p{
     text-align: justify;    
 }
 
+#color-red{
+    color:red;
+}
+
+#color-blue{
+    color:blue;
+}
+
+#color-green{
+    color:green;
+}
+
+#size-big{
+    font-size:xx-large;
+}
+
+#size-tiny{
+    font-size:xx-small;
+}
+
+#text-center{
+    text-align:center;
+}
+
+#font-bold{
+    font-weight:bold;
+}
+
+#new-font-family{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#multi-attr{
+    font-size:25px;
+    color:orange;
+    font-weight:bold;
+}
+
 .styledFont{
     padding: 10px 30px;
     font-weight: 700;
@@ -25,19 +63,8 @@ p{
 
 }
 
-
-
-
-
-.highlight{
-    font-weight: 700;
-    color: forestgreen;
-}
-
-
-
-ul li{
-    list-style-type: square;
-    margin-bottom: 10px;
-    margin-left: 50px;
+#styledImage{
+    border-width:25px;
+    border-style:solid;
+    border-color:goldenrod;
 }
